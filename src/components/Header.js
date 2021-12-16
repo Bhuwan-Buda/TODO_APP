@@ -1,32 +1,19 @@
 import React from 'react'
+import './Style.css'
 import { Link } from 'react-router-dom'
 
 function Header() {
 
-    const divStyle = {
-        position: 'relative',
-        top: '0px',
-        width: '100%'
-    }
-    const hstyle = {
-        fontSize: '3.4rem',
-        padding: '10px',
-    }
-
-    const linkStyle = {
-        display: 'flex',
-        justifyContent: 'space-around'
-    }
-
     return (
-        <div style={divStyle} className='header text-center text-primary bg-black'>
-          <h1 style={hstyle}>Welcome to TODO App.</h1>
-          <nav style={linkStyle}>
+        <div className='header text-center text-primary bg-black'>
+          <h1 className='heading'>Welcome to TODO App.</h1>
+          <nav className='nav'>
             <Link 
                 to="/" 
                 style={{
                     textDecoration: 'none', 
                     color: 'red',
+                    fontWeight: 'bold',
                     fontSize: '22px'}}>
             Home</Link>
             <Link 
@@ -34,6 +21,7 @@ function Header() {
                 style={{
                     textDecoration: 'none',
                     color: 'red',
+                    fontWeight: 'bold',
                     fontSize: '22px' }}>
             About</Link>
             <Link 
@@ -41,6 +29,7 @@ function Header() {
                 style={{
                     textDecoration: 'none',
                     color: 'red',
+                    fontWeight: 'bold',
                     fontSize: '22px' }}>
             Contact</Link>
           </nav>
