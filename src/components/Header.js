@@ -14,23 +14,26 @@ function Header() {
                     textDecoration: 'none', 
                     color: 'red',
                     fontWeight: 'bold',
-                    fontSize: '22px'}}>
-            Home</Link>
+                    fontSize: '22px',
+                    margin: '0 18px'}}>
+            ToDo</Link>
             <Link 
-                to="/about"
+                to="/updown"
                 style={{
                     textDecoration: 'none',
                     color: 'red',
                     fontWeight: 'bold',
-                    fontSize: '22px' }}>
-            About</Link>
+                    fontSize: '22px',
+                    margin: '0 18px' }}>
+            UpDown</Link>
             <Link 
                 to="/contact"
                 style={{
                     textDecoration: 'none',
                     color: 'red',
                     fontWeight: 'bold',
-                    fontSize: '22px' }}>
+                    fontSize: '22px',
+                    margin: '0 18px' }}>
             Contact</Link>
           </nav>
         </div>

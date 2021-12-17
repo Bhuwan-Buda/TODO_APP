@@ -28,7 +28,7 @@
 }
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background: linear-gradient(#f4f4f4, #e1e1e1);
 }
 
